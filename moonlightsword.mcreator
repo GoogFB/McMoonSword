@@ -1,10 +1,40 @@
 {
   "id_map": {},
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "ArabicNokia",
+      "type": "musicdisc",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "arabic_nokia"
+    },
+    {
+      "name": "ArabicNokiaRightClickedInAir",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "arabic_nokia_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item.moonlightsword.arabic_nokia": "Arabic Nokia",
+      "item.moonlightsword.arabic_nokia.desc": "spoopy"
+    }
   },
   "foldersRoot": {
     "name": "~",

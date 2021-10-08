@@ -1,0 +1,20 @@
+{
+  "_fv": 24,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "a",
+    "name": "Arabic Nokia",
+    "description": "spoopy",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "music": {
+      "value": "ambient.crimson_forest.mood"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "onRightClickedInAir": {
+      "name": "ArabicNokiaRightClickedInAir"
+    }
+  }
+}
