@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "moonlightsword:items/pngarea.com_moonlight-greatsword-pixel-9967073"
+  }
+}

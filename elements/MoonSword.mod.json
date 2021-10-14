@@ -1,0 +1,34 @@
+{
+  "_fv": 24,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "pngarea.com_moonlight-greatsword-pixel-9967073",
+    "customModelName": "Normal",
+    "name": "Moon Sword",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 1.0,
+    "attackSpeed": 4.0,
+    "enchantability": 2,
+    "damageVsEntity": 30.0,
+    "usageCount": 300,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "Items.NETHER_STAR"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "MoonSwordRightClickedInAir"
+    }
+  }
+}
