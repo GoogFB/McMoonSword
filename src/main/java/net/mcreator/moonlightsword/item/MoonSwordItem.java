@@ -27,7 +27,7 @@ public class MoonSwordItem extends MoonlightswordModElements.ModElement {
 			}
 
 			public float getEfficiency() {
-				return 4f;
+				return 9f;
 			}
 
 			public float getAttackDamage() {
