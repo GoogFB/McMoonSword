@@ -33,10 +33,20 @@
     }
   ],
   "variable_elements": [],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "mlgs",
+      "files": [
+        "mlgs"
+      ],
+      "category": "master",
+      "subtitle": ""
+    }
+  ],
   "language_map": {
     "en_us": {
       "item.moonlightsword.moon_swor": "Moon Sword",
+      "subtitles.mlgs": "",
       "item.moonlightsword.moon_sword": "Moon Sword"
     }
   },
