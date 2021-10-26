@@ -45,6 +45,7 @@ public class MoonlightswordModElements {
 	public final List<Supplier<Enchantment>> enchantments = new ArrayList<>();
 	public static Map<ResourceLocation, net.minecraft.util.SoundEvent> sounds = new HashMap<>();
 	public MoonlightswordModElements() {
+		sounds.put(new ResourceLocation("moonlightsword", "mlgs"), new net.minecraft.util.SoundEvent(new ResourceLocation("moonlightsword", "mlgs")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("moonlightsword").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();

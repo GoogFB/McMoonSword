@@ -1,1 +1,11 @@
-{}
+{
+  "mlgs": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "moonlightsword:mlgs",
+        "stream": false
+      }
+    ]
+  }
+}
