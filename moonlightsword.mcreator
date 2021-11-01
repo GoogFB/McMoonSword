@@ -14,12 +14,16 @@
       "name": "MoonSwordRightClickedInAir",
       "type": "procedure",
       "sortid": 2,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "moon_sword_right_clicked_in_air",
       "metadata": {
         "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
           {
             "name": "x",
             "type": "number"
