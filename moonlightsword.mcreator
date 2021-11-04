@@ -14,7 +14,7 @@
       "name": "MoonSwordRightClickedInAir",
       "type": "procedure",
       "sortid": 2,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "moon_sword_right_clicked_in_air",
@@ -53,7 +53,20 @@
       "registry_name": "moon_swor"
     }
   ],
-  "variable_elements": [],
+  "variable_elements": [
+    {
+      "name": "projectile",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    },
+    {
+      "name": "moonlightprojectile",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    }
+  ],
   "sound_elements": [
     {
       "name": "mlgs",
