@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "default": "moonlight_greatsword_roughness"
+      },
+      "name": "default"
+    }
+  }
+}

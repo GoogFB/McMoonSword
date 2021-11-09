@@ -7,7 +7,6 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.world.server.ServerWorld;
 import net.minecraft.world.World;
 import net.minecraft.world.IWorld;
-import net.minecraft.world.Explosion;
 import net.minecraft.util.text.StringTextComponent;
 import net.minecraft.nbt.CompoundNBT;
 import net.minecraft.entity.projectile.FireballEntity;
@@ -76,9 +75,6 @@ public class MoonSwordRightClickedInAirProcedure {
 					((MobEntity) entityToSpawn).onInitialSpawn((ServerWorld) world, world.getDifficultyForLocation(entityToSpawn.getPosition()),
 							SpawnReason.MOB_SUMMONED, (ILivingEntityData) null, (CompoundNBT) null);
 				world.addEntity(entityToSpawn);
-			}
-			if (world instanceof World && !((World) world).isRemote) {
-				((World) world).createExplosion(null, (int) x, (int) y, (int) z, (float) 900, Explosion.Mode.BREAK);
 			}
 			new Object() {
 				private int ticks = 0;
