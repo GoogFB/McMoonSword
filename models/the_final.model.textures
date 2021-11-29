@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "ss": {
+      "map": {},
+      "name": "ss"
+    },
+    "default": {
+      "map": {},
+      "name": "default"
+    }
+  }
+}

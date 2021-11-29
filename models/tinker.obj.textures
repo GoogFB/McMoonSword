@@ -2,7 +2,7 @@
   "mappings": {
     "default": {
       "map": {
-        "default": "moonlight_greatsword_roughness"
+        "default": "moonlight_greatsword_albedo"
       },
       "name": "default"
     }
