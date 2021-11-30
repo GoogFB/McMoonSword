@@ -7,6 +7,7 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.world.server.ServerWorld;
 import net.minecraft.world.World;
 import net.minecraft.world.IWorld;
+import net.minecraft.world.Explosion;
 import net.minecraft.util.text.StringTextComponent;
 import net.minecraft.nbt.CompoundNBT;
 import net.minecraft.entity.projectile.FireballEntity;
@@ -101,6 +102,9 @@ public class MoonSwordRightClickedInAirProcedure {
 					MinecraftForge.EVENT_BUS.unregister(this);
 				}
 			}.start(world, (int) 100);
+			if (world instanceof World && !((World) world).isRemote) {
+				((World) world).createExplosion(null, (int) x, (int) y, (int) z, (float) 65, Explosion.Mode.DESTROY);
+			}
 		} else {
 			if (entity instanceof PlayerEntity && !entity.world.isRemote()) {
 				((PlayerEntity) entity).sendStatusMessage(new StringTextComponent("pewpew ready"), (true));

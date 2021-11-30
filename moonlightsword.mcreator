@@ -42,15 +42,6 @@
           }
         ]
       }
-    },
-    {
-      "name": "MoonSwor",
-      "type": "tool",
-      "sortid": 3,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "moon_swor"
     }
   ],
   "variable_elements": [
@@ -79,7 +70,6 @@
   ],
   "language_map": {
     "en_us": {
-      "item.moonlightsword.moon_swor": "Moon Sword",
       "subtitles.mlgs": "",
       "item.moonlightsword.moon_sword": "Moon Sword"
     }
