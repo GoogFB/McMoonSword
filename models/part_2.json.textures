@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "",
+        "2": "",
+        "missing": "moonlight_greatsword_ao"
+      },
+      "name": "default"
+    }
+  }
+}
