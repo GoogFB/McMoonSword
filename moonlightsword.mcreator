@@ -42,6 +42,15 @@
           }
         ]
       }
+    },
+    {
+      "name": "Swordlight",
+      "type": "tool",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "swordlight"
     }
   ],
   "variable_elements": [
@@ -71,6 +80,7 @@
   "language_map": {
     "en_us": {
       "subtitles.mlgs": "",
+      "item.moonlightsword.swordlight": "Swordlight",
       "item.moonlightsword.moon_sword": "Moon Sword"
     }
   },
