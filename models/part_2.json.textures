@@ -7,6 +7,14 @@
         "missing": ""
       },
       "name": "default"
+    },
+    "sword": {
+      "map": {
+        "0": "",
+        "2": "",
+        "missing": ""
+      },
+      "name": "sword"
     }
   }
 }

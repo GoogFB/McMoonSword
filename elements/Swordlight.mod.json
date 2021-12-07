@@ -3,8 +3,8 @@
   "_type": "tool",
   "definition": {
     "renderType": 1,
-    "texture": "mon",
-    "customModelName": "part_2:default",
+    "texture": "fix",
+    "customModelName": "part_2:sword",
     "name": "Swordlight",
     "specialInfo": [],
     "creativeTab": {
