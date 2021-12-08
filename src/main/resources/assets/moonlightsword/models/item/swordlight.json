@@ -1,9 +1,7 @@
 {
-  "parent": "moonlightsword:custom/part_2",
+  "parent": "moonlightsword:custom/part_3",
   "textures": {
-    "0": "moonlightsword:blocks/",
-    "2": "moonlightsword:blocks/",
-    "missing": "moonlightsword:blocks/",
+    "3": "moonlightsword:blocks/",
     "particle": "moonlightsword:items/fix"
   }
 }
