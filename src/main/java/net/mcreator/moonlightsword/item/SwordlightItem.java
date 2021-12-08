@@ -33,7 +33,7 @@ public class SwordlightItem extends MoonlightswordModElements.ModElement {
 	public void initElements() {
 		elements.items.add(() -> new SwordItem(new IItemTier() {
 			public int getMaxUses() {
-				return 100;
+				return 500;
 			}
 
 			public float getEfficiency() {
@@ -41,7 +41,7 @@ public class SwordlightItem extends MoonlightswordModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 18f;
+				return 28f;
 			}
 
 			public int getHarvestLevel() {
@@ -49,13 +49,13 @@ public class SwordlightItem extends MoonlightswordModElements.ModElement {
 			}
 
 			public int getEnchantability() {
-				return 2;
+				return 8;
 			}
 
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(Items.NETHER_STAR));
 			}
-		}, 3, -3f, new Item.Properties().group(ItemGroup.COMBAT).isImmuneToFire()) {
+		}, 3, -3.9f, new Item.Properties().group(ItemGroup.COMBAT).isImmuneToFire()) {
 			@Override
 			public ActionResult<ItemStack> onItemRightClick(World world, PlayerEntity entity, Hand hand) {
 				ActionResult<ItemStack> retval = super.onItemRightClick(world, entity, hand);
