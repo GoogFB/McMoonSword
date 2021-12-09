@@ -51,6 +51,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "swordlight"
+    },
+    {
+      "name": "Hilt",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hilt"
     }
   ],
   "variable_elements": [
