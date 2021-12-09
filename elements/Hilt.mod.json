@@ -1,0 +1,46 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.MAGENTA_GLAZED_TERRACOTTA"
+      },
+      {
+        "value": "Blocks.NETHER_WART"
+      },
+      {
+        "value": "Blocks.WEB"
+      },
+      {
+        "value": "Blocks.JUNGLE_WOOD"
+      },
+      {
+        "value": "Blocks.REDSTONE_WIRE"
+      },
+      {
+        "value": "Blocks.TNT"
+      },
+      {
+        "value": "Blocks.GLASS"
+      },
+      {
+        "value": "Blocks.BOOKSHELF"
+      },
+      {
+        "value": "Items.EXPERIENCE_BOTTLE"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Swordlight"
+    },
+    "name": "hilt",
+    "namespace": "mod"
+  }
+}

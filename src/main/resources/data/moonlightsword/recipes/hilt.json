@@ -1,0 +1,42 @@
+{
+  "group": "moonlightsword",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:magenta_glazed_terracotta"
+    },
+    "1": {
+      "item": "minecraft:nether_wart"
+    },
+    "2": {
+      "item": "minecraft:cobweb"
+    },
+    "3": {
+      "item": "minecraft:jungle_wood"
+    },
+    "4": {
+      "item": "minecraft:redstone_wire"
+    },
+    "5": {
+      "item": "minecraft:tnt"
+    },
+    "6": {
+      "item": "minecraft:glass"
+    },
+    "7": {
+      "item": "minecraft:bookshelf"
+    },
+    "8": {
+      "item": "minecraft:experience_bottle"
+    }
+  },
+  "result": {
+    "item": "moonlightsword:swordlight",
+    "count": 1
+  }
+}
